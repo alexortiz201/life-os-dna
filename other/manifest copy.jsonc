@@ -1,17 +1,19 @@
-// Copy to Expansion/<YourThemeName>/expansion_manifest.jsonc and edit.
 {
   "theme_name": "YourThemeName",
   "version": "1.0.0",
   "description": "Short description of your theme overlay.",
   "realms": {
     "wealth": { "label": "Wealth Realm — <Label>", "icon": "💰" },
-    "love":   { "label": "Love Realm — <Label>",   "icon": "❤️" },
+    "love": { "label": "Love Realm — <Label>", "icon": "❤️" },
     "health": { "label": "Health Realm — <Label>", "icon": "⚽" },
     "evolution": { "label": "Evolution Realm — <Label>", "icon": "🔮" }
   },
   "arcs": {
-    "front_end": { "label": "Front-End Arc — <Label>", "file": "YourTheme/Arcs/Front_End_Arc.md" },
-    "mcp":       { "label": "MCP Arc — <Label>",        "file": "YourTheme/Arcs/MCP_Arc.md" }
+    "front_end": {
+      "label": "Front-End Arc — <Label>",
+      "file": "YourTheme/Arcs/Front_End_Arc.md"
+    },
+    "mcp": { "label": "MCP Arc — <Label>", "file": "YourTheme/Arcs/MCP_Arc.md" }
   },
   "xp_rules": {
     "deep_work": 10,

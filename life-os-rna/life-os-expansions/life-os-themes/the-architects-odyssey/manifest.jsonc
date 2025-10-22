@@ -3,6 +3,12 @@
   "theme_name": "The_Architects_Odyssey",
   "version": "1.0.0",
   "description": "Anime \u00d7 RPG narrative overlay for the Core System.",
+
+  // Templated realms: "$realm" means "expand me once per theme realm"
+  // "realms": {
+  //   "$realm": { "label": "${realm} Realm — <Label>", "folder": "./${realm}" }
+  // },
+
   "realms": {
     "wealth": {
       "label": "Wealth Realm \u2014 The Forge",
@@ -46,13 +52,7 @@
     "shadow_encounter": 25,
     "journal": 5
   },
-  "quest_types": [
-    "main",
-    "side",
-    "daily",
-    "shadow",
-    "event"
-  ],
+  "quest_types": ["main", "side", "daily", "shadow", "event"],
   "file_paths": {
     "core_weekly": "Core_System/Weekly_Dashboard.md",
     "core_toggle": "Core_System/Mode_Toggle.md",

@@ -7,8 +7,8 @@ type: "Wealth"  # Wealth | Love | Health | Evolution
 
 # <% tp.file.title %> — Arc
 
-**Phase:** <% tp.frontmatter.phase %>  
-**Current Quest:**  
+**Phase:** <% tp.frontmatter.phase %>
+**Current Quest:**
 **Victory Condition:** <% tp.frontmatter.victory_condition %>
 
 ## Notes
