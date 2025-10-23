@@ -240,5 +240,42 @@
       "core_question": "Who am I becoming beyond the system?",
       "xp_multiplier": 2.0
     }
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Layers
+  // ─────────────────────────────────────────────────────────────────────────────
+  "layers": {
+    "core_system": {
+      "purpose": "Active workflows and live dashboards.",
+      "root": "/core-system/",
+      "examples": ["Weekly Dashboard", "Inputs", "Wealth"],
+      "tags": ["layer/Core_System"]
+    },
+    "templates": {
+      "purpose": "Blueprints — structure without live data.",
+      "root": "/templates/",
+      "tags": ["layer/Templates"]
+    },
+    "private": {
+      "purpose": "Local-only logs and sensitive data.",
+      "root": "/private/",
+      "tags": ["layer/Private"]
+    },
+    "expansion": {
+      "purpose": "Intelligence, lore, or XP extensions.",
+      "root": "/expansion/",
+      "tags": ["layer/Expansion"]
+    },
+    "themes": {
+      "purpose": "Visual and narrative overlays.",
+      "root": "/life-os-rna/life-os-themes/",
+      "tags": ["layer/Themes"]
+    },
+    "mcp_server": {
+      "purpose": "External automation and APIs.",
+      "root": "https://purpledreams.io/mcp",
+      "tags": ["layer/MCP"]
+    }
   }
 }
